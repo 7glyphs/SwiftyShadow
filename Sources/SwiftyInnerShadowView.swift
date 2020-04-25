@@ -5,7 +5,7 @@
 //  Created by luan on 7/11/17.
 //  Copyright © 2017 luantran. All rights reserved.
 //
-
+#if os(iOS)
 import UIKit
 
 open class SwiftyInnerShadowView: UIView {
@@ -46,3 +46,4 @@ open class SwiftyInnerShadowView: UIView {
     }
     
 }
+#endif

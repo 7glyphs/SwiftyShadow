@@ -5,7 +5,7 @@
 //  Created by luan on 7/23/17.
 //
 //
-
+#if os(iOS)
 import UIKit
 
 extension UIView {
@@ -82,3 +82,4 @@ extension UIView {
     }
     
 }
+#endif
